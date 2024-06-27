@@ -7,7 +7,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"gopkg.in/yaml.v3"
 
-	"github.com/akash-network/akash-api/go/node/types/unit"
+	"github.com/spheronFdn/akash-api-fork/go/node/types/unit"
 )
 
 func TestByteQuantity(t *testing.T) {

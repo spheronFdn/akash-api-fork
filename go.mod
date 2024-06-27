@@ -1,4 +1,4 @@
-module github.com/akash-network/akash-api
+module github.com/spheronFdn/akash-api-fork
 
 go 1.21
 

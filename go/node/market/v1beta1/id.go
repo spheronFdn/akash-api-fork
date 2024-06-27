@@ -6,7 +6,7 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 
-	dtypes "github.com/akash-network/akash-api/go/node/deployment/v1beta1"
+	dtypes "github.com/spheronFdn/akash-api-fork/go/node/deployment/v1beta1"
 )
 
 // MakeOrderID returns OrderID instance with provided groupID details and oseq

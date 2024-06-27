@@ -3,8 +3,8 @@ package testutil
 import (
 	"testing"
 
-	ptypes "github.com/akash-network/akash-api/go/node/provider/v1beta2"
-	"github.com/akash-network/akash-api/go/testutil"
+	ptypes "github.com/spheronFdn/akash-api-fork/go/node/provider/v1beta2"
+	"github.com/spheronFdn/akash-api-fork/go/testutil"
 )
 
 func Provider(t testing.TB) ptypes.Provider {

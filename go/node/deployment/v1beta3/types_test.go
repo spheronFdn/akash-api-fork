@@ -9,12 +9,12 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	abci "github.com/tendermint/tendermint/abci/types"
 
-	atypes "github.com/akash-network/akash-api/go/node/audit/v1beta3"
-	types "github.com/akash-network/akash-api/go/node/deployment/v1beta3"
-	akashtypes "github.com/akash-network/akash-api/go/node/types/v1beta3"
-	"github.com/akash-network/akash-api/go/sdkutil"
-	tutil "github.com/akash-network/akash-api/go/testutil"
-	"github.com/akash-network/akash-api/go/testutil/v1beta3"
+	atypes "github.com/spheronFdn/akash-api-fork/go/node/audit/v1beta3"
+	types "github.com/spheronFdn/akash-api-fork/go/node/deployment/v1beta3"
+	akashtypes "github.com/spheronFdn/akash-api-fork/go/node/types/v1beta3"
+	"github.com/spheronFdn/akash-api-fork/go/sdkutil"
+	tutil "github.com/spheronFdn/akash-api-fork/go/testutil"
+	"github.com/spheronFdn/akash-api-fork/go/testutil/v1beta3"
 )
 
 type gStateTest struct {

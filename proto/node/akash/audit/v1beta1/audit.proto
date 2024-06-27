@@ -4,7 +4,7 @@ package akash.audit.v1beta1;
 import "gogoproto/gogo.proto";
 import "akash/base/v1beta1/attribute.proto";
 
-option go_package = "github.com/akash-network/akash-api/go/node/audit/v1beta1";
+option go_package = "github.com/spheronFdn/akash-api-fork/go/node/audit/v1beta1";
 
 // Msg defines the provider Msg service
 service Msg {
@@ -27,7 +27,7 @@ message Provider {
   ];
 
   repeated akash.base.v1beta1.Attribute attributes = 4 [
-    (gogoproto.castrepeated) = "github.com/akash-network/akash-api/go/node/types/v1beta1.Attributes",
+    (gogoproto.castrepeated) = "github.com/spheronFdn/akash-api-fork/go/node/types/v1beta1.Attributes",
     (gogoproto.nullable)     = false,
     (gogoproto.jsontag)      = "attributes",
     (gogoproto.moretags)     = "yaml:\"attributes\""
@@ -48,7 +48,7 @@ message AuditedAttributes {
     (gogoproto.moretags) = "yaml:\"auditor\""
   ];
   repeated akash.base.v1beta1.Attribute attributes = 3 [
-    (gogoproto.castrepeated) = "github.com/akash-network/akash-api/go/node/types/v1beta1.Attributes",
+    (gogoproto.castrepeated) = "github.com/spheronFdn/akash-api-fork/go/node/types/v1beta1.Attributes",
     (gogoproto.nullable)     = false,
     (gogoproto.jsontag)      = "attributes",
     (gogoproto.moretags)     = "yaml:\"attributes\""
@@ -95,7 +95,7 @@ message MsgSignProviderAttributes {
     (gogoproto.moretags) = "yaml:\"auditor\""
   ];
   repeated akash.base.v1beta1.Attribute attributes = 3 [
-    (gogoproto.castrepeated) = "github.com/akash-network/akash-api/go/node/types/v1beta1.Attributes",
+    (gogoproto.castrepeated) = "github.com/spheronFdn/akash-api-fork/go/node/types/v1beta1.Attributes",
     (gogoproto.nullable)     = false,
     (gogoproto.jsontag)      = "attributes",
     (gogoproto.moretags)     = "yaml:\"attributes\""

@@ -23,12 +23,12 @@ import (
 	"github.com/gogo/protobuf/proto"
 	tmrpc "github.com/tendermint/tendermint/rpc/core/types"
 
-	atypes "github.com/akash-network/akash-api/go/node/audit/v1beta3"
-	ctypes "github.com/akash-network/akash-api/go/node/cert/v1beta3"
-	cltypes "github.com/akash-network/akash-api/go/node/client/types"
-	dtypes "github.com/akash-network/akash-api/go/node/deployment/v1beta3"
-	mtypes "github.com/akash-network/akash-api/go/node/market/v1beta4"
-	ptypes "github.com/akash-network/akash-api/go/node/provider/v1beta3"
+	atypes "github.com/spheronFdn/akash-api-fork/go/node/audit/v1beta3"
+	ctypes "github.com/spheronFdn/akash-api-fork/go/node/cert/v1beta3"
+	cltypes "github.com/spheronFdn/akash-api-fork/go/node/client/types"
+	dtypes "github.com/spheronFdn/akash-api-fork/go/node/deployment/v1beta3"
+	mtypes "github.com/spheronFdn/akash-api-fork/go/node/market/v1beta4"
+	ptypes "github.com/spheronFdn/akash-api-fork/go/node/provider/v1beta3"
 )
 
 //go:generate mockery --name QueryClient --output ./mocks

@@ -1,8 +1,8 @@
 package migrate
 
 import (
-	"github.com/akash-network/akash-api/go/node/market/v1beta1"
-	"github.com/akash-network/akash-api/go/node/market/v1beta2"
+	"github.com/spheronFdn/akash-api-fork/go/node/market/v1beta1"
+	"github.com/spheronFdn/akash-api-fork/go/node/market/v1beta2"
 )
 
 func LeaseIDToV1beta1(from v1beta1.LeaseID) v1beta2.LeaseID {

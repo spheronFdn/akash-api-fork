@@ -6,8 +6,8 @@ package v1beta2
 import (
 	context "context"
 	fmt "fmt"
-	github_com_akash_network_akash_api_go_node_types_v1beta2 "github.com/akash-network/akash-api/go/node/types/v1beta2"
-	v1beta2 "github.com/akash-network/akash-api/go/node/types/v1beta2"
+	github_com_akash_network_akash_api_go_node_types_v1beta2 "github.com/spheronFdn/akash-api-fork/go/node/types/v1beta2"
+	v1beta2 "github.com/spheronFdn/akash-api-fork/go/node/types/v1beta2"
 	_ "github.com/gogo/protobuf/gogoproto"
 	grpc1 "github.com/gogo/protobuf/grpc"
 	proto "github.com/gogo/protobuf/proto"
@@ -34,7 +34,7 @@ const _ = proto.GoGoProtoPackageIsVersion3 // please upgrade the proto package
 type Provider struct {
 	Owner      string                                                              `protobuf:"bytes,1,opt,name=owner,proto3" json:"owner" yaml:"owner"`
 	Auditor    string                                                              `protobuf:"bytes,2,opt,name=auditor,proto3" json:"auditor" yaml:"auditor"`
-	Attributes github_com_akash_network_akash_api_go_node_types_v1beta2.Attributes `protobuf:"bytes,4,rep,name=attributes,proto3,castrepeated=github.com/akash-network/akash-api/go/node/types/v1beta2.Attributes" json:"attributes" yaml:"attributes"`
+	Attributes github_com_akash_network_akash_api_go_node_types_v1beta2.Attributes `protobuf:"bytes,4,rep,name=attributes,proto3,castrepeated=github.com/spheronFdn/akash-api-fork/go/node/types/v1beta2.Attributes" json:"attributes" yaml:"attributes"`
 }
 
 func (m *Provider) Reset()         { *m = Provider{} }
@@ -95,7 +95,7 @@ func (m *Provider) GetAttributes() github_com_akash_network_akash_api_go_node_ty
 type AuditedAttributes struct {
 	Owner      string                                                              `protobuf:"bytes,1,opt,name=owner,proto3" json:"owner" yaml:"owner"`
 	Auditor    string                                                              `protobuf:"bytes,2,opt,name=auditor,proto3" json:"auditor" yaml:"auditor"`
-	Attributes github_com_akash_network_akash_api_go_node_types_v1beta2.Attributes `protobuf:"bytes,3,rep,name=attributes,proto3,castrepeated=github.com/akash-network/akash-api/go/node/types/v1beta2.Attributes" json:"attributes" yaml:"attributes"`
+	Attributes github_com_akash_network_akash_api_go_node_types_v1beta2.Attributes `protobuf:"bytes,3,rep,name=attributes,proto3,castrepeated=github.com/spheronFdn/akash-api-fork/go/node/types/v1beta2.Attributes" json:"attributes" yaml:"attributes"`
 }
 
 func (m *AuditedAttributes) Reset()         { *m = AuditedAttributes{} }
@@ -254,7 +254,7 @@ func (m *AttributesFilters) GetOwners() []string {
 type MsgSignProviderAttributes struct {
 	Owner      string                                                              `protobuf:"bytes,1,opt,name=owner,proto3" json:"owner" yaml:"owner"`
 	Auditor    string                                                              `protobuf:"bytes,2,opt,name=auditor,proto3" json:"auditor" yaml:"auditor"`
-	Attributes github_com_akash_network_akash_api_go_node_types_v1beta2.Attributes `protobuf:"bytes,3,rep,name=attributes,proto3,castrepeated=github.com/akash-network/akash-api/go/node/types/v1beta2.Attributes" json:"attributes" yaml:"attributes"`
+	Attributes github_com_akash_network_akash_api_go_node_types_v1beta2.Attributes `protobuf:"bytes,3,rep,name=attributes,proto3,castrepeated=github.com/spheronFdn/akash-api-fork/go/node/types/v1beta2.Attributes" json:"attributes" yaml:"attributes"`
 }
 
 func (m *MsgSignProviderAttributes) Reset()         { *m = MsgSignProviderAttributes{} }

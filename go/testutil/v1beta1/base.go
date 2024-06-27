@@ -6,9 +6,9 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/tendermint/tendermint/libs/rand"
 
-	dtypes "github.com/akash-network/akash-api/go/node/deployment/v1beta1"
-	types "github.com/akash-network/akash-api/go/node/types/v1beta1"
-	"github.com/akash-network/akash-api/go/testutil"
+	dtypes "github.com/spheronFdn/akash-api-fork/go/node/deployment/v1beta1"
+	types "github.com/spheronFdn/akash-api-fork/go/node/types/v1beta1"
+	"github.com/spheronFdn/akash-api-fork/go/testutil"
 )
 
 func ProviderHostname(t testing.TB) string {

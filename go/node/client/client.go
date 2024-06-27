@@ -7,8 +7,8 @@ import (
 	sdkclient "github.com/cosmos/cosmos-sdk/client"
 	tmjclient "github.com/tendermint/tendermint/rpc/jsonrpc/client"
 
-	cltypes "github.com/akash-network/akash-api/go/node/client/types"
-	"github.com/akash-network/akash-api/go/node/client/v1beta2"
+	cltypes "github.com/spheronFdn/akash-api-fork/go/node/client/types"
+	"github.com/spheronFdn/akash-api-fork/go/node/client/v1beta2"
 )
 
 var (

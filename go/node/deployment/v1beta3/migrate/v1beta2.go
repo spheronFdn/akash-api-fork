@@ -1,9 +1,9 @@
 package migrate
 
 import (
-	"github.com/akash-network/akash-api/go/node/deployment/v1beta2"
-	"github.com/akash-network/akash-api/go/node/deployment/v1beta3"
-	amigrate "github.com/akash-network/akash-api/go/node/types/v1beta3/migrate"
+	"github.com/spheronFdn/akash-api-fork/go/node/deployment/v1beta2"
+	"github.com/spheronFdn/akash-api-fork/go/node/deployment/v1beta3"
+	amigrate "github.com/spheronFdn/akash-api-fork/go/node/types/v1beta3/migrate"
 )
 
 func ResourceUnitFromV1Beta2(id uint32, from v1beta2.Resource) v1beta3.ResourceUnit {

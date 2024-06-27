@@ -5,7 +5,7 @@ package v2beta1
 
 import (
 	fmt "fmt"
-	v1beta2 "github.com/akash-network/akash-api/go/node/types/v1beta2"
+	v1beta2 "github.com/spheronFdn/akash-api-fork/go/node/types/v1beta2"
 	_ "github.com/gogo/protobuf/gogoproto"
 	proto "github.com/gogo/protobuf/proto"
 	io "io"

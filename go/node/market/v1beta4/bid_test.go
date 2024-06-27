@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	testutil "github.com/akash-network/akash-api/go/testutil/v1beta3"
+	testutil "github.com/spheronFdn/akash-api-fork/go/testutil/v1beta3"
 )
 
 func TestBid_GSpecMatch_Valid(t *testing.T) {

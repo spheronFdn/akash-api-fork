@@ -1,7 +1,7 @@
 package v1beta1
 
 import (
-	"github.com/akash-network/akash-api/go/node/types/unit"
+	"github.com/spheronFdn/akash-api-fork/go/node/types/unit"
 )
 
 // This is the validation configuration that acts as a hard limit

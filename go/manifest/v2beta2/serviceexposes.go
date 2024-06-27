@@ -3,7 +3,7 @@ package v2beta2
 import (
 	"sort"
 
-	types "github.com/akash-network/akash-api/go/node/types/v1beta3"
+	types "github.com/spheronFdn/akash-api-fork/go/node/types/v1beta3"
 )
 
 type ServiceExposes []ServiceExpose

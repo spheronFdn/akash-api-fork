@@ -7,10 +7,10 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	types "github.com/akash-network/akash-api/go/node/deployment/v1beta1"
-	akashtypes "github.com/akash-network/akash-api/go/node/types/v1beta1"
-	tutil "github.com/akash-network/akash-api/go/testutil"
-	testutil "github.com/akash-network/akash-api/go/testutil/v1beta1"
+	types "github.com/spheronFdn/akash-api-fork/go/node/deployment/v1beta1"
+	akashtypes "github.com/spheronFdn/akash-api-fork/go/node/types/v1beta1"
+	tutil "github.com/spheronFdn/akash-api-fork/go/testutil"
+	testutil "github.com/spheronFdn/akash-api-fork/go/testutil/v1beta1"
 )
 
 func TestZeroValueGroupSpec(t *testing.T) {

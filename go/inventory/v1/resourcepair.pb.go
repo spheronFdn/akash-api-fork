@@ -5,8 +5,8 @@ package v1
 
 import (
 	fmt "fmt"
-	github_com_akash_network_akash_api_go_node_types_v1beta3 "github.com/akash-network/akash-api/go/node/types/v1beta3"
-	v1beta3 "github.com/akash-network/akash-api/go/node/types/v1beta3"
+	github_com_akash_network_akash_api_go_node_types_v1beta3 "github.com/spheronFdn/akash-api-fork/go/node/types/v1beta3"
+	v1beta3 "github.com/spheronFdn/akash-api-fork/go/node/types/v1beta3"
 	_ "github.com/gogo/protobuf/gogoproto"
 	proto "github.com/gogo/protobuf/proto"
 	io "io"
@@ -30,7 +30,7 @@ const _ = proto.GoGoProtoPackageIsVersion3 // please upgrade the proto package
 type ResourcePair struct {
 	Allocatable *resource.Quantity                                                  `protobuf:"bytes,1,opt,name=allocatable,proto3" json:"allocatable" yaml:"allocatable"`
 	Allocated   *resource.Quantity                                                  `protobuf:"bytes,2,opt,name=allocated,proto3" json:"allocated" yaml:"allocated"`
-	Attributes  github_com_akash_network_akash_api_go_node_types_v1beta3.Attributes `protobuf:"bytes,3,rep,name=attributes,proto3,castrepeated=github.com/akash-network/akash-api/go/node/types/v1beta3.Attributes" json:"attributes,omitempty" yaml:"attributes,omitempty"`
+	Attributes  github_com_akash_network_akash_api_go_node_types_v1beta3.Attributes `protobuf:"bytes,3,rep,name=attributes,proto3,castrepeated=github.com/spheronFdn/akash-api-fork/go/node/types/v1beta3.Attributes" json:"attributes,omitempty" yaml:"attributes,omitempty"`
 }
 
 func (m *ResourcePair) Reset()         { *m = ResourcePair{} }

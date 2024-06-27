@@ -3,9 +3,9 @@ package migrate
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/akash-network/akash-api/go/node/deployment/v1beta1"
-	"github.com/akash-network/akash-api/go/node/deployment/v1beta2"
-	amigrate "github.com/akash-network/akash-api/go/node/types/v1beta2/migrate"
+	"github.com/spheronFdn/akash-api-fork/go/node/deployment/v1beta1"
+	"github.com/spheronFdn/akash-api-fork/go/node/deployment/v1beta2"
+	amigrate "github.com/spheronFdn/akash-api-fork/go/node/types/v1beta2/migrate"
 )
 
 func ResourceFromV1Beta1(from v1beta1.Resource) v1beta2.Resource {

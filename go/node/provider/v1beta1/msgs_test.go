@@ -9,7 +9,7 @@ import (
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 	"github.com/pkg/errors"
 
-	types "github.com/akash-network/akash-api/go/node/types/v1beta1"
+	types "github.com/spheronFdn/akash-api-fork/go/node/types/v1beta1"
 )
 
 func TestConfigPath(t *testing.T) {

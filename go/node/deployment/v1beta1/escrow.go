@@ -1,7 +1,7 @@
 package v1beta1
 
 import (
-	etypes "github.com/akash-network/akash-api/go/node/escrow/v1beta1"
+	etypes "github.com/spheronFdn/akash-api-fork/go/node/escrow/v1beta1"
 )
 
 const (

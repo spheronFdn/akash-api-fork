@@ -10,8 +10,8 @@ import (
 
 	k8svalidation "k8s.io/apimachinery/pkg/util/validation"
 
-	dtypes "github.com/akash-network/akash-api/go/node/deployment/v1beta2"
-	types "github.com/akash-network/akash-api/go/node/types/v1beta2"
+	dtypes "github.com/spheronFdn/akash-api-fork/go/node/deployment/v1beta2"
+	types "github.com/spheronFdn/akash-api-fork/go/node/types/v1beta2"
 )
 
 var (

@@ -6,7 +6,7 @@ import "google/api/annotations.proto";
 import "cosmos/base/query/v1beta1/pagination.proto";
 import "akash/provider/v1beta2/provider.proto";
 
-option go_package = "github.com/akash-network/akash-api/go/node/provider/v1beta2";
+option go_package = "github.com/spheronFdn/akash-api-fork/go/node/provider/v1beta2";
 
 // Query defines the gRPC querier service
 service Query {

@@ -7,9 +7,9 @@ import (
 	"github.com/stretchr/testify/require"
 	abci "github.com/tendermint/tendermint/abci/types"
 
-	dtypes "github.com/akash-network/akash-api/go/node/deployment/v1beta1"
-	ptypes "github.com/akash-network/akash-api/go/node/provider/v1beta1"
-	"github.com/akash-network/akash-api/go/sdkutil"
+	dtypes "github.com/spheronFdn/akash-api-fork/go/node/deployment/v1beta1"
+	ptypes "github.com/spheronFdn/akash-api-fork/go/node/provider/v1beta1"
+	"github.com/spheronFdn/akash-api-fork/go/sdkutil"
 )
 
 func ParseEvent(t testing.TB, events []abci.Event) sdkutil.Event {

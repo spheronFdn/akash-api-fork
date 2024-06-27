@@ -1,8 +1,8 @@
 package migrate
 
 import (
-	"github.com/akash-network/akash-api/go/node/market/v1beta3"
-	"github.com/akash-network/akash-api/go/node/market/v1beta4"
+	"github.com/spheronFdn/akash-api-fork/go/node/market/v1beta3"
+	"github.com/spheronFdn/akash-api-fork/go/node/market/v1beta4"
 )
 
 func BidStateFromV1beta3(from v1beta3.Bid_State) v1beta4.Bid_State {

@@ -9,10 +9,10 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	manifest "github.com/akash-network/akash-api/go/manifest/v2beta1"
-	dtypes "github.com/akash-network/akash-api/go/node/deployment/v1beta2"
-	akashtypes "github.com/akash-network/akash-api/go/node/types/v1beta2"
-	"github.com/akash-network/akash-api/go/testutil/v1beta2"
+	manifest "github.com/spheronFdn/akash-api-fork/go/manifest/v2beta1"
+	dtypes "github.com/spheronFdn/akash-api-fork/go/node/deployment/v1beta2"
+	akashtypes "github.com/spheronFdn/akash-api-fork/go/node/types/v1beta2"
+	"github.com/spheronFdn/akash-api-fork/go/testutil/v1beta2"
 )
 
 var (

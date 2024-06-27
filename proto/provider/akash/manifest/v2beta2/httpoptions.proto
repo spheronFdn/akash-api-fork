@@ -6,7 +6,7 @@ import "gogoproto/gogo.proto";
 
 option (gogoproto.goproto_stringer_all) = false;
 option (gogoproto.stringer_all)         = true;
-option go_package                       = "github.com/akash-network/akash-api/go/manifest/v2beta2";
+option go_package                       = "github.com/spheronFdn/akash-api-fork/go/manifest/v2beta2";
 
 // ServiceExposeHTTPOptions
 message ServiceExposeHTTPOptions {

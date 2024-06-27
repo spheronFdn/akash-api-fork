@@ -20,4 +20,4 @@ for dir in $proto_dirs; do
 done
 
 # move proto files to the right places
-cp -rv github.com/akash-network/akash-api/* ./
+cp -rv github.com/spheronFdn/akash-api-fork/* ./

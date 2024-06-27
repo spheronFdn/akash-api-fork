@@ -3,7 +3,7 @@ package v1beta1
 import (
 	"net/url"
 
-	types "github.com/akash-network/akash-api/go/node/types/v1beta1"
+	types "github.com/spheronFdn/akash-api-fork/go/node/types/v1beta1"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"

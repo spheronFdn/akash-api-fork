@@ -8,7 +8,7 @@ import (
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/require"
 
-	"github.com/akash-network/akash-api/go/sdkutil"
+	"github.com/spheronFdn/akash-api-fork/go/sdkutil"
 )
 
 var (

@@ -3,7 +3,7 @@ package testutil
 import (
 	"testing"
 
-	types "github.com/akash-network/akash-api/go/node/types/v1beta1"
+	types "github.com/spheronFdn/akash-api-fork/go/node/types/v1beta1"
 )
 
 func ResourceUnits(_ testing.TB) types.ResourceUnits {

@@ -5,8 +5,8 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	atypes "github.com/akash-network/akash-api/go/node/audit/v1beta1"
-	types "github.com/akash-network/akash-api/go/node/types/v1beta1"
+	atypes "github.com/spheronFdn/akash-api-fork/go/node/audit/v1beta1"
+	types "github.com/spheronFdn/akash-api-fork/go/node/types/v1beta1"
 
 	"gopkg.in/yaml.v3"
 )

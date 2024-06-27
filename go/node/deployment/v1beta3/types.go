@@ -3,7 +3,7 @@ package v1beta3
 import (
 	"bytes"
 
-	types "github.com/akash-network/akash-api/go/node/types/v1beta3"
+	types "github.com/spheronFdn/akash-api-fork/go/node/types/v1beta3"
 )
 
 type attributesMatching map[string]types.Attributes

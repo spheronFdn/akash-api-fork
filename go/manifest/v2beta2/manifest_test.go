@@ -8,9 +8,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	dtypes "github.com/akash-network/akash-api/go/node/deployment/v1beta3"
-	akashtypes "github.com/akash-network/akash-api/go/node/types/v1beta3"
-	"github.com/akash-network/akash-api/go/testutil/v1beta3"
+	dtypes "github.com/spheronFdn/akash-api-fork/go/node/deployment/v1beta3"
+	akashtypes "github.com/spheronFdn/akash-api-fork/go/node/types/v1beta3"
+	"github.com/spheronFdn/akash-api-fork/go/testutil/v1beta3"
 )
 
 const (

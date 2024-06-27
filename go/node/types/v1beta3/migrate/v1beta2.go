@@ -3,8 +3,8 @@ package migrate
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/akash-network/akash-api/go/node/types/v1beta2"
-	"github.com/akash-network/akash-api/go/node/types/v1beta3"
+	"github.com/spheronFdn/akash-api-fork/go/node/types/v1beta2"
+	"github.com/spheronFdn/akash-api-fork/go/node/types/v1beta3"
 )
 
 func ResourceValueFromV1Beta2(from v1beta2.ResourceValue) v1beta3.ResourceValue {

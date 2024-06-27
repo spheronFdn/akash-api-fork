@@ -6,7 +6,7 @@ package v1beta1
 import (
 	context "context"
 	fmt "fmt"
-	v1beta1 "github.com/akash-network/akash-api/go/node/escrow/v1beta1"
+	v1beta1 "github.com/spheronFdn/akash-api-fork/go/node/escrow/v1beta1"
 	query "github.com/cosmos/cosmos-sdk/types/query"
 	_ "github.com/gogo/protobuf/gogoproto"
 	grpc1 "github.com/gogo/protobuf/grpc"

@@ -6,9 +6,9 @@ package v1
 import (
 	context "context"
 	fmt "fmt"
-	github_com_akash_network_akash_api_go_manifest_v2beta2 "github.com/akash-network/akash-api/go/manifest/v2beta2"
-	v2beta2 "github.com/akash-network/akash-api/go/manifest/v2beta2"
-	v1beta4 "github.com/akash-network/akash-api/go/node/market/v1beta4"
+	github_com_akash_network_akash_api_go_manifest_v2beta2 "github.com/spheronFdn/akash-api-fork/go/manifest/v2beta2"
+	v2beta2 "github.com/spheronFdn/akash-api-fork/go/manifest/v2beta2"
+	v1beta4 "github.com/spheronFdn/akash-api-fork/go/node/market/v1beta4"
 	_ "github.com/gogo/protobuf/gogoproto"
 	grpc1 "github.com/gogo/protobuf/grpc"
 	proto "github.com/gogo/protobuf/proto"
@@ -350,7 +350,7 @@ func (m *ServiceStatus) GetIps() []LeaseIPStatus {
 // SendManifestRequest is request type for the SendManifest Providers RPC method
 type SendManifestRequest struct {
 	LeaseId  v1beta4.LeaseID                                                 `protobuf:"bytes,1,opt,name=lease_id,json=leaseId,proto3" json:"LeaseID" yaml:"LeaseID"`
-	Manifest github_com_akash_network_akash_api_go_manifest_v2beta2.Manifest `protobuf:"bytes,2,rep,name=manifest,proto3,castrepeated=github.com/akash-network/akash-api/go/manifest/v2beta2.Manifest" json:"manifest" yaml:"manifest"`
+	Manifest github_com_akash_network_akash_api_go_manifest_v2beta2.Manifest `protobuf:"bytes,2,rep,name=manifest,proto3,castrepeated=github.com/spheronFdn/akash-api-fork/go/manifest/v2beta2.Manifest" json:"manifest" yaml:"manifest"`
 }
 
 func (m *SendManifestRequest) Reset()         { *m = SendManifestRequest{} }

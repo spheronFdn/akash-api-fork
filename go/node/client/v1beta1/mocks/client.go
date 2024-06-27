@@ -3,7 +3,7 @@
 package mocks
 
 import (
-	v1beta1 "github.com/akash-network/akash-api/go/node/client/v1beta1"
+	v1beta1 "github.com/spheronFdn/akash-api-fork/go/node/client/v1beta1"
 	mock "github.com/stretchr/testify/mock"
 )
 

@@ -26,8 +26,8 @@ import (
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 	authtx "github.com/cosmos/cosmos-sdk/x/auth/tx"
 
-	cltypes "github.com/akash-network/akash-api/go/node/client/types"
-	"github.com/akash-network/akash-api/go/util/ctxlog"
+	cltypes "github.com/spheronFdn/akash-api-fork/go/node/client/types"
+	"github.com/spheronFdn/akash-api-fork/go/util/ctxlog"
 )
 
 var (

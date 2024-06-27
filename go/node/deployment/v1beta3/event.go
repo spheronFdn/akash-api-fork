@@ -6,7 +6,7 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/akash-network/akash-api/go/sdkutil"
+	"github.com/spheronFdn/akash-api-fork/go/sdkutil"
 )
 
 const (

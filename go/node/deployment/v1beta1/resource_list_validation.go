@@ -6,7 +6,7 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/pkg/errors"
 
-	types "github.com/akash-network/akash-api/go/node/types/v1beta1"
+	types "github.com/spheronFdn/akash-api-fork/go/node/types/v1beta1"
 )
 
 var (

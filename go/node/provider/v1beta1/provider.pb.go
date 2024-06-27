@@ -6,8 +6,8 @@ package v1beta1
 import (
 	context "context"
 	fmt "fmt"
-	github_com_akash_network_akash_api_go_node_types_v1beta1 "github.com/akash-network/akash-api/go/node/types/v1beta1"
-	v1beta1 "github.com/akash-network/akash-api/go/node/types/v1beta1"
+	github_com_akash_network_akash_api_go_node_types_v1beta1 "github.com/spheronFdn/akash-api-fork/go/node/types/v1beta1"
+	v1beta1 "github.com/spheronFdn/akash-api-fork/go/node/types/v1beta1"
 	_ "github.com/gogo/protobuf/gogoproto"
 	grpc1 "github.com/gogo/protobuf/grpc"
 	proto "github.com/gogo/protobuf/proto"
@@ -87,7 +87,7 @@ func (m *ProviderInfo) GetWebsite() string {
 type MsgCreateProvider struct {
 	Owner      string                                                              `protobuf:"bytes,1,opt,name=owner,proto3" json:"owner" yaml:"owner"`
 	HostURI    string                                                              `protobuf:"bytes,2,opt,name=host_uri,json=hostUri,proto3" json:"host_uri" yaml:"host_uri"`
-	Attributes github_com_akash_network_akash_api_go_node_types_v1beta1.Attributes `protobuf:"bytes,3,rep,name=attributes,proto3,castrepeated=github.com/akash-network/akash-api/go/node/types/v1beta1.Attributes" json:"attributes" yaml:"attributes"`
+	Attributes github_com_akash_network_akash_api_go_node_types_v1beta1.Attributes `protobuf:"bytes,3,rep,name=attributes,proto3,castrepeated=github.com/spheronFdn/akash-api-fork/go/node/types/v1beta1.Attributes" json:"attributes" yaml:"attributes"`
 	Info       ProviderInfo                                                        `protobuf:"bytes,4,opt,name=info,proto3" json:"info" yaml:"info"`
 }
 
@@ -193,7 +193,7 @@ var xxx_messageInfo_MsgCreateProviderResponse proto.InternalMessageInfo
 type MsgUpdateProvider struct {
 	Owner      string                                                              `protobuf:"bytes,1,opt,name=owner,proto3" json:"owner" yaml:"owner"`
 	HostURI    string                                                              `protobuf:"bytes,2,opt,name=host_uri,json=hostUri,proto3" json:"host_uri" yaml:"host_uri"`
-	Attributes github_com_akash_network_akash_api_go_node_types_v1beta1.Attributes `protobuf:"bytes,3,rep,name=attributes,proto3,castrepeated=github.com/akash-network/akash-api/go/node/types/v1beta1.Attributes" json:"attributes" yaml:"attributes"`
+	Attributes github_com_akash_network_akash_api_go_node_types_v1beta1.Attributes `protobuf:"bytes,3,rep,name=attributes,proto3,castrepeated=github.com/spheronFdn/akash-api-fork/go/node/types/v1beta1.Attributes" json:"attributes" yaml:"attributes"`
 	Info       ProviderInfo                                                        `protobuf:"bytes,4,opt,name=info,proto3" json:"info" yaml:"info"`
 }
 
@@ -381,7 +381,7 @@ var xxx_messageInfo_MsgDeleteProviderResponse proto.InternalMessageInfo
 type Provider struct {
 	Owner      string                                                              `protobuf:"bytes,1,opt,name=owner,proto3" json:"owner" yaml:"owner"`
 	HostURI    string                                                              `protobuf:"bytes,2,opt,name=host_uri,json=hostUri,proto3" json:"host_uri" yaml:"host_uri"`
-	Attributes github_com_akash_network_akash_api_go_node_types_v1beta1.Attributes `protobuf:"bytes,3,rep,name=attributes,proto3,castrepeated=github.com/akash-network/akash-api/go/node/types/v1beta1.Attributes" json:"attributes" yaml:"attributes"`
+	Attributes github_com_akash_network_akash_api_go_node_types_v1beta1.Attributes `protobuf:"bytes,3,rep,name=attributes,proto3,castrepeated=github.com/spheronFdn/akash-api-fork/go/node/types/v1beta1.Attributes" json:"attributes" yaml:"attributes"`
 	Info       ProviderInfo                                                        `protobuf:"bytes,4,opt,name=info,proto3" json:"info" yaml:"info"`
 }
 

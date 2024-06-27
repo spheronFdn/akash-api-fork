@@ -6,11 +6,11 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/stretchr/testify/require"
 
-	manifest "github.com/akash-network/akash-api/go/manifest/v2beta1"
-	dtypes "github.com/akash-network/akash-api/go/node/deployment/v1beta2"
-	akashtypes "github.com/akash-network/akash-api/go/node/types/v1beta2"
-	tutil "github.com/akash-network/akash-api/go/testutil"
-	"github.com/akash-network/akash-api/go/testutil/v1beta2"
+	manifest "github.com/spheronFdn/akash-api-fork/go/manifest/v2beta1"
+	dtypes "github.com/spheronFdn/akash-api-fork/go/node/deployment/v1beta2"
+	akashtypes "github.com/spheronFdn/akash-api-fork/go/node/types/v1beta2"
+	tutil "github.com/spheronFdn/akash-api-fork/go/testutil"
+	"github.com/spheronFdn/akash-api-fork/go/testutil/v1beta2"
 )
 
 func TestManifestWithEmptyDeployment(t *testing.T) {

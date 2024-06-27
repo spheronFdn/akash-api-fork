@@ -5,7 +5,7 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	types "github.com/akash-network/akash-api/go/node/types/v1beta2"
+	types "github.com/spheronFdn/akash-api-fork/go/node/types/v1beta2"
 )
 
 type attributesMatching map[string]types.Attributes

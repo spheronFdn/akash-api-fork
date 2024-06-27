@@ -7,8 +7,8 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	dtypes "github.com/akash-network/akash-api/go/node/deployment/v1beta1"
-	etypes "github.com/akash-network/akash-api/go/node/escrow/v1beta1"
+	dtypes "github.com/spheronFdn/akash-api-fork/go/node/deployment/v1beta1"
+	etypes "github.com/spheronFdn/akash-api-fork/go/node/escrow/v1beta1"
 )
 
 const (

@@ -3,7 +3,7 @@ package akash.deployment.v1beta2;
 
 import "gogoproto/gogo.proto";
 
-option go_package = "github.com/akash-network/akash-api/go/node/deployment/v1beta2";
+option go_package = "github.com/spheronFdn/akash-api-fork/go/node/deployment/v1beta2";
 
 // DeploymentID stores owner and sequence number
 message DeploymentID {
