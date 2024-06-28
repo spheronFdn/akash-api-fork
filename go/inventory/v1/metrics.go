@@ -7,10 +7,11 @@ import (
 )
 
 type ResourcesMetric struct {
-	CPU              uint64 `json:"cpu"`
-	GPU              uint64 `json:"gpu"`
-	Memory           uint64 `json:"memory"`
-	StorageEphemeral uint64 `json:"storage_ephemeral"`
+	CPU              uint64   `json:"cpu"`
+	GPU              uint64   `json:"gpu"`
+	GPU_infos        GPUInfoS `json:"gpu_infos"`
+	Memory           uint64   `json:"memory"`
+	StorageEphemeral uint64   `json:"storage_ephemeral"`
 }
 
 type NodeMetrics struct {
