@@ -17,6 +17,8 @@ type NodeMetrics struct {
 	Name        string          `json:"name"`
 	Allocatable ResourcesMetric `json:"allocatable"`
 	Available   ResourcesMetric `json:"available"`
+	Bandwidth   string          `json:"bandwidth,omitempty"`
+	Version     string          `json:"version,omitempty"`
 }
 
 type Metrics struct {
