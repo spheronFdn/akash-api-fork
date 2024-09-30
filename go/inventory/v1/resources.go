@@ -8,6 +8,8 @@ func (s *NodeResources) Dup() NodeResources {
 		EphemeralStorage: s.EphemeralStorage.Dup(),
 		VolumesAttached:  s.VolumesAttached.Dup(),
 		VolumesMounted:   s.VolumesMounted.Dup(),
+		Version:          s.Version,
+		Bandwidth:        s.Bandwidth,
 	}
 
 	return res
