@@ -31,6 +31,8 @@ type NodeResources struct {
 	EphemeralStorage ResourcePair `protobuf:"bytes,4,opt,name=ephemeral_storage,json=ephemeralStorage,proto3" json:"ephemeral_storage" yaml:"ephemeral_storage"`
 	VolumesAttached  ResourcePair `protobuf:"bytes,5,opt,name=volumes_attached,json=volumesAttached,proto3" json:"volumes_attached" yaml:"volumes_attached"`
 	VolumesMounted   ResourcePair `protobuf:"bytes,6,opt,name=volumes_mounted,json=volumesMounted,proto3" json:"volumes_mounted" yaml:"volumes_mounted"`
+	Version 		 string 
+	Bandwidth 		 string
 }
 
 func (m *NodeResources) Reset()         { *m = NodeResources{} }
