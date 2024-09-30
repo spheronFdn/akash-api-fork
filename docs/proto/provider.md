@@ -800,6 +800,8 @@
  | `ephemeral_storage` | [ResourcePair](#akash.inventory.v1.ResourcePair) |  |  |
  | `volumes_attached` | [ResourcePair](#akash.inventory.v1.ResourcePair) |  |  |
  | `volumes_mounted` | [ResourcePair](#akash.inventory.v1.ResourcePair) |  |  |
+ | `version` | [string](#string) |  |  |
+ | `bandwidth` | [string](#string) |  |  |
  
  
 
