@@ -53,4 +53,17 @@ message NodeResources {
     (gogoproto.jsontag)      = "volumes_mounted",
     (gogoproto.moretags)     = "yaml:\"volumes_mounted\""
   ];
+
+  string version = 7 [
+    (gogoproto.nullable)     = true,
+    (gogoproto.customname)   = "Version",
+    (gogoproto.jsontag)      = "version",
+    (gogoproto.moretags)     = "yaml:\"version\""
+  ];
+  string bandwidth = 8 [
+    (gogoproto.nullable)     = true,
+    (gogoproto.customname)   = "Bandwidth",
+    (gogoproto.jsontag)      = "bandwidth",
+    (gogoproto.moretags)     = "yaml:\"bandwidth\""
+  ];
 }
