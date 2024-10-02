@@ -68,4 +68,14 @@ message ServiceExpose {
     (gogoproto.jsontag)  = "endpointSequenceNumber",
     (gogoproto.moretags) = "yaml:\"endpointSequenceNumber\""
   ];
+  string port_range = 10 [
+    (gogoproto.customname) = "PortRange",
+    (gogoproto.jsontag)    = "portRange",
+    (gogoproto.moretags)   = "yaml:\"ip\""
+  ];
+  string port_range_as = 11 [
+    (gogoproto.customname) = "PortRangeAs",
+    (gogoproto.jsontag)    = "portRangeAs",
+    (gogoproto.moretags)   = "yaml:\"portRangeAs\""
+  ];
 }
