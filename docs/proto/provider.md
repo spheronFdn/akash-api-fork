@@ -29,6 +29,7 @@
    
  - [akash/manifest/v2beta2/service.proto](#akash/manifest/v2beta2/service.proto)
      - [Service](#akash.manifest.v2beta2.Service)
+     - [ServiceImageCredentials](#akash.manifest.v2beta2.ServiceImageCredentials)
      - [ServiceParams](#akash.manifest.v2beta2.ServiceParams)
      - [StorageParams](#akash.manifest.v2beta2.StorageParams)
    
@@ -395,6 +396,25 @@
  | `count` | [uint32](#uint32) |  |  |
  | `expose` | [ServiceExpose](#akash.manifest.v2beta2.ServiceExpose) | repeated |  |
  | `params` | [ServiceParams](#akash.manifest.v2beta2.ServiceParams) |  |  |
+ | `credentials` | [ServiceImageCredentials](#akash.manifest.v2beta2.ServiceImageCredentials) |  |  |
+ 
+ 
+
+ 
+
+ 
+ <a name="akash.manifest.v2beta2.ServiceImageCredentials"></a>
+
+ ### ServiceImageCredentials
+ Credentials to fetch image from registry
+
+ 
+ | Field | Type | Label | Description |
+ | ----- | ---- | ----- | ----------- |
+ | `host` | [string](#string) |  |  |
+ | `email` | [string](#string) |  |  |
+ | `username` | [string](#string) |  |  |
+ | `password` | [string](#string) |  |  |
  
  
 
