@@ -71,7 +71,7 @@ message ServiceExpose {
   string port_range = 10 [
     (gogoproto.customname) = "PortRange",
     (gogoproto.jsontag)    = "portRange",
-    (gogoproto.moretags)   = "yaml:\"ip\""
+    (gogoproto.moretags)   = "yaml:\"portRange\""
   ];
   string port_range_as = 11 [
     (gogoproto.customname) = "PortRangeAs",
