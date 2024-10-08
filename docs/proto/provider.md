@@ -355,6 +355,8 @@
  | `http_options` | [ServiceExposeHTTPOptions](#akash.manifest.v2beta2.ServiceExposeHTTPOptions) |  |  |
  | `ip` | [string](#string) |  | The name of the IP address associated with this, if any |
  | `endpoint_sequence_number` | [uint32](#uint32) |  | The sequence number of the associated endpoint in the on-chain data |
+ | `port_range` | [string](#string) |  |  |
+ | `port_range_as` | [string](#string) |  |  |
  
  
 
