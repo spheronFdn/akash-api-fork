@@ -397,6 +397,7 @@
  | `expose` | [ServiceExpose](#akash.manifest.v2beta2.ServiceExpose) | repeated |  |
  | `params` | [ServiceParams](#akash.manifest.v2beta2.ServiceParams) |  |  |
  | `credentials` | [ServiceImageCredentials](#akash.manifest.v2beta2.ServiceImageCredentials) |  |  |
+ | `pullPolicy` | [string](#string) |  |  |
  
  
 
