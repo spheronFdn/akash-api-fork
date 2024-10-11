@@ -103,4 +103,9 @@ message Service {
     (gogoproto.jsontag)  = "credentials",
     (gogoproto.moretags) = "yaml:\"credentials\""
   ];
+  string pullPolicy = 11 [
+    (gogoproto.nullable) = true,
+    (gogoproto.jsontag)  = "pullPolicy",
+    (gogoproto.moretags) = "yaml:\"pullPolicy\""
+  ];
 }
