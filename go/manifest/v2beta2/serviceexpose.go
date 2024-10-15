@@ -41,7 +41,8 @@ func (s *ServiceExpose) GetEndpoints() types.Endpoints {
 }
 
 func (s *ServiceExpose) validate(helper *validateManifestGroupsHelper) error {
-	if s.Port == 0 || s.Port > math.MaxUint16 {
+	// make port optional port = 0 is allowed
+	if s.Port > math.MaxUint16 {
 		return fmt.Errorf("port value must be 0 < value <= 65535 ")
 	}
 
