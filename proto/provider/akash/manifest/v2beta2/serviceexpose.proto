@@ -70,12 +70,17 @@ message ServiceExpose {
   ];
   string port_range = 10 [
     (gogoproto.customname) = "PortRange",
-    (gogoproto.jsontag)    = "portRange",
-    (gogoproto.moretags)   = "yaml:\"portRange\""
+    (gogoproto.jsontag)    = "port_range",
+    (gogoproto.moretags)   = "yaml:\"port_range\""
   ];
   string port_range_as = 11 [
     (gogoproto.customname) = "PortRangeAs",
-    (gogoproto.jsontag)    = "portRangeAs",
-    (gogoproto.moretags)   = "yaml:\"portRangeAs\""
+    (gogoproto.jsontag)    = "port_range_as",
+    (gogoproto.moretags)   = "yaml:\"port_range_as\""
+  ];
+  bool use_public_port = 12 [
+    (gogoproto.customname) = "UsePublicPort",
+    (gogoproto.jsontag)    = "use_public_port",
+    (gogoproto.moretags)   = "yaml:\"use_public_port\""
   ];
 }

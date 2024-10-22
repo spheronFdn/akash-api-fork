@@ -357,6 +357,7 @@
  | `endpoint_sequence_number` | [uint32](#uint32) |  | The sequence number of the associated endpoint in the on-chain data |
  | `port_range` | [string](#string) |  |  |
  | `port_range_as` | [string](#string) |  |  |
+ | `use_public_port` | [bool](#bool) |  |  |
  
  
 
